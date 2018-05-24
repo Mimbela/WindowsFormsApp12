@@ -51,7 +51,7 @@ namespace WindowsFormsApp12
         }
         public void Convertir(string cadena)
         {
-            string[] partes = cadena.Split(',');
+            string[] partes = cadena.Split('-');
             textBox1.Text = partes[0].ToUpper();
             textBox2.Text = partes[1].ToUpper();
 
